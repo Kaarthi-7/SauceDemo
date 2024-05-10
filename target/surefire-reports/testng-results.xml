@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="17" passed="17" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-11T03:26:30 IST" name="Suite" finished-at="2024-05-11T03:26:42 IST" duration-ms="11983">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberTestRunner.TestRunner@bcec361]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-05-11T03:26:30 IST" name="Test" finished-at="2024-05-11T03:26:42 IST" duration-ms="11983">
+      <class name="cucumberTestRunner.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:cucumberTestRunner.TestRunner@bcec361]" started-at="2024-05-11T03:26:30 IST" name="setUpClass" finished-at="2024-05-11T03:26:34 IST" duration-ms="4075" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7b7e4b20]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberTestRunner.TestRunner@bcec361]" started-at="2024-05-11T03:26:34 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-11T03:26:36 IST" duration-ms="1496" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Login functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing ShoppersStop Website"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberTestRunner.TestRunner@bcec361]" started-at="2024-05-11T03:26:36 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-11T03:26:37 IST" duration-ms="585" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Sort Functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing ShoppersStop Website"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberTestRunner.TestRunner@bcec361]" started-at="2024-05-11T03:26:37 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-11T03:26:38 IST" duration-ms="1693" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verifying Cart functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing ShoppersStop Website"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberTestRunner.TestRunner@bcec361]" started-at="2024-05-11T03:26:39 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-11T03:26:39 IST" duration-ms="267" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verifying Logout functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing ShoppersStop Website"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:cucumberTestRunner.TestRunner@bcec361]" started-at="2024-05-11T03:26:39 IST" name="tearDownClass" finished-at="2024-05-11T03:26:42 IST" duration-ms="3094" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- cucumberTestRunner.TestRunner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+  <suite started-at="2024-05-11T03:26:44 IST" name="Suite (0)" finished-at="2024-05-11T03:26:48 IST" duration-ms="3558">
+    <groups>
+    </groups>
+    <test started-at="2024-05-11T03:26:44 IST" name="Edge" finished-at="2024-05-11T03:26:48 IST" duration-ms="3558">
+      <class name="testNGTestCases.TC04_VerifyLogoutFunctionality">
+        <test-method is-config="true" signature="siteLaunch()[pri:0, instance:testNGTestCases.TC04_VerifyLogoutFunctionality@762ef0ea]" started-at="2024-05-11T03:26:43 IST" name="siteLaunch" finished-at="2024-05-11T03:26:44 IST" duration-ms="1853" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- siteLaunch -->
+        <test-method signature="user_is_on_shoppers_stop_com_website()[pri:1, instance:testNGTestCases.TC04_VerifyLogoutFunctionality@762ef0ea]" started-at="2024-05-11T03:26:44 IST" name="user_is_on_shoppers_stop_com_website" finished-at="2024-05-11T03:26:44 IST" duration-ms="63" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_is_on_shoppers_stop_com_website -->
+        <test-method signature="verifying_the_logo_of_webpage()[pri:2, instance:testNGTestCases.TC04_VerifyLogoutFunctionality@762ef0ea]" started-at="2024-05-11T03:26:45 IST" name="verifying_the_logo_of_webpage" finished-at="2024-05-11T03:26:45 IST" duration-ms="48" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifying_the_logo_of_webpage -->
+        <test-method signature="loginUsingInvalidCredential()[pri:3, instance:testNGTestCases.TC04_VerifyLogoutFunctionality@762ef0ea]" started-at="2024-05-11T03:26:45 IST" name="loginUsingInvalidCredential" finished-at="2024-05-11T03:26:45 IST" duration-ms="215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginUsingInvalidCredential -->
+        <test-method signature="loginUsingValidCredential()[pri:4, instance:testNGTestCases.TC04_VerifyLogoutFunctionality@762ef0ea]" started-at="2024-05-11T03:26:45 IST" name="loginUsingValidCredential" finished-at="2024-05-11T03:26:45 IST" duration-ms="258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginUsingValidCredential -->
+        <test-method signature="MethodOfSort()[pri:5, instance:testNGTestCases.TC04_VerifyLogoutFunctionality@762ef0ea]" started-at="2024-05-11T03:26:46 IST" name="MethodOfSort" finished-at="2024-05-11T03:26:46 IST" duration-ms="114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MethodOfSort -->
+        <test-method signature="verifySort()[pri:6, instance:testNGTestCases.TC04_VerifyLogoutFunctionality@762ef0ea]" started-at="2024-05-11T03:26:46 IST" name="verifySort" finished-at="2024-05-11T03:26:46 IST" duration-ms="118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySort -->
+        <test-method signature="addProductToCart()[pri:7, instance:testNGTestCases.TC04_VerifyLogoutFunctionality@762ef0ea]" started-at="2024-05-11T03:26:46 IST" name="addProductToCart" finished-at="2024-05-11T03:26:46 IST" duration-ms="126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProductToCart -->
+        <test-method signature="verifyProduct()[pri:8, instance:testNGTestCases.TC04_VerifyLogoutFunctionality@762ef0ea]" started-at="2024-05-11T03:26:46 IST" name="verifyProduct" finished-at="2024-05-11T03:26:46 IST" duration-ms="43" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProduct -->
+        <test-method signature="removeProduct()[pri:9, instance:testNGTestCases.TC04_VerifyLogoutFunctionality@762ef0ea]" started-at="2024-05-11T03:26:46 IST" name="removeProduct" finished-at="2024-05-11T03:26:47 IST" duration-ms="109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeProduct -->
+        <test-method signature="navigateToprodDescPage()[pri:10, instance:testNGTestCases.TC04_VerifyLogoutFunctionality@762ef0ea]" started-at="2024-05-11T03:26:47 IST" name="navigateToprodDescPage" finished-at="2024-05-11T03:26:47 IST" duration-ms="67" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToprodDescPage -->
+        <test-method signature="addCartinProdDescPage()[pri:11, instance:testNGTestCases.TC04_VerifyLogoutFunctionality@762ef0ea]" started-at="2024-05-11T03:26:47 IST" name="addCartinProdDescPage" finished-at="2024-05-11T03:26:47 IST" duration-ms="93" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCartinProdDescPage -->
+        <test-method signature="checkOut()[pri:12, instance:testNGTestCases.TC04_VerifyLogoutFunctionality@762ef0ea]" started-at="2024-05-11T03:26:47 IST" name="checkOut" finished-at="2024-05-11T03:26:48 IST" duration-ms="409" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOut -->
+        <test-method signature="logout()[pri:13, instance:testNGTestCases.TC04_VerifyLogoutFunctionality@762ef0ea]" started-at="2024-05-11T03:26:48 IST" name="logout" finished-at="2024-05-11T03:26:48 IST" duration-ms="150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testNGTestCases.TC04_VerifyLogoutFunctionality@762ef0ea]" started-at="2024-05-11T03:26:48 IST" name="tearDown" finished-at="2024-05-11T03:26:48 IST" duration-ms="157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testNGTestCases.TC04_VerifyLogoutFunctionality -->
+    </test> <!-- Edge -->
+  </suite> <!-- Suite (0) -->
+</testng-results>

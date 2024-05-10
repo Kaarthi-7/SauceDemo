@@ -1,0 +1,26 @@
+03:26:35.036 [main] INFO  factory.BaseClass - ----Correct Website Launched Successfully----
+03:26:35.346 [main] INFO  factory.BaseClass - ----SauceDemo Logo is Displayed----
+03:26:35.721 [main] INFO  factory.BaseClass - ----captured error while logging in using the invalid credential----
+03:26:36.099 [main] INFO  factory.BaseClass - ----logging in using the valid credential----
+03:26:36.609 [main] INFO  factory.BaseClass - ----selected the sorting method successfully----
+03:26:36.906 [main] INFO  factory.BaseClass - ----verified the sort function successfully----
+03:26:37.336 [main] INFO  factory.BaseClass - ----product added to cart successfully----
+03:26:37.506 [main] INFO  factory.BaseClass - ----verified the product added to cart successfully----
+03:26:37.760 [main] INFO  factory.BaseClass - ----product removed from the cart successfully----
+03:26:38.003 [main] INFO  factory.BaseClass - ----navigated to product description successfully----
+03:26:38.251 [main] INFO  factory.BaseClass - ----product added to cart successfully----
+03:26:38.746 [main] INFO  factory.BaseClass - ----product checked out successfully----
+03:26:39.210 [main] INFO  factory.BaseClass - ----Logged out Successfully----
+03:26:44.921 [main] INFO  factory.BaseClass - ----Correct Website Launched Successfully----
+03:26:45.112 [main] INFO  factory.BaseClass - ----SauceDemo Logo is Displayed----
+03:26:45.447 [main] INFO  factory.BaseClass - ----captured error while logging in using the invalid credential----
+03:26:45.822 [main] INFO  factory.BaseClass - ----logging in using the valid credential----
+03:26:46.154 [main] INFO  factory.BaseClass - ----selected the sorting method successfully----
+03:26:46.415 [main] INFO  factory.BaseClass - ----verified the sort function successfully----
+03:26:46.685 [main] INFO  factory.BaseClass - ----product added to cart successfully----
+03:26:46.833 [main] INFO  factory.BaseClass - ----verified the product added to cart successfully----
+03:26:47.052 [main] INFO  factory.BaseClass - ----product removed from the cart successfully----
+03:26:47.268 [main] INFO  factory.BaseClass - ----navigated to product description successfully----
+03:26:47.496 [main] INFO  factory.BaseClass - ----product added to cart successfully----
+03:26:48.024 [main] INFO  factory.BaseClass - ----product checked out successfully----
+03:26:48.324 [main] INFO  factory.BaseClass - ----Logged out Successfully----
