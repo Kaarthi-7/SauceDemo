@@ -1,4 +1,4 @@
-Feature: Testing ShoppersStop Website
+Feature: Testing Saucedemo Website
 
   Scenario: Verify Login functionality
     Given user is on Saucedemo.com website
